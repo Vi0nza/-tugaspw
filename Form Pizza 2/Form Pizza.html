@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+</head>
+
+<body>
+  
+  <h2 class="forms" style="text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Blackstone Bistro | Pizza-on-Demand</h2>
+  <form method="post" name="forms" action="submit.html">
+    <div class="forms">
+        <hr/>
+       
+        <table>
+            <div style="font-size: 100px;">
+            <tr>
+                <td colspan="2" style="text-size-adjust: 12px;"><h4><b>Ukuran</b></h4></td>
+              </tr> 
+            </div>
+
+          <tr>
+            <td>Kecil</td>
+            <td>Rp.50.000,00</td>
+          </tr>
+          <tr>
+            <td>Sedang</td>
+            <td>Rp.100.000,00</td>
+          </tr>
+          <tr>
+            <td>Besar</td>
+            <td>Rp.150.000</td>
+          </tr>
+          <tr>
+            <td>Super Besar</td>
+            <td>Rp.200.000,00</td>
+          </tr>
+          <div style="font-size: 100px;"> 
+          <tr>
+            <td colspan="2"><h4><b>Tambahan Topping</b></h4></td>
+          </tr>
+        </div>
+
+          <tr>
+            <td>Rp.10.000,00/per topping</td>
+        </table>
+      </div>
+      <div class="forms2">
+        <fieldset>
+          <legend><b>informasi pribadi</b></legend>
+          Nama <input name="name" /><br />
+          Nomor Rekening <input type="number" name="account" /><br />
+          Nomor Telepon <input type="tel" name="phone" /><br />
+          Tanggal Lahir <input type="date" name="birthday" />
+        </fieldset>
+        <fieldset>
+          <legend><b>Ukuran Pizza &amp; Lapisan Kulit</b></legend>
+          <select name="size" size="2">
+            <option>Pilih Ukuran Pizza</option>
+            <option value="1">Kecil</option>
+            <option value="2">Sedang</option>
+            <option value="3">Besar</option>
+            <option value="4">Super Besar</option>
+          </select>
+          <select name="Lapisan Kulit" size="2">
+            <option value="1">Tebal </option>
+            <option value="2">Tipis </option>
+          </select>
+        </fieldset>
+        <fieldset>
+          <legend><b>Pilihan Keju</b></legend>
+          <input type="radio" name="cheese" value="1" />Mozzarella
+          <input type="radio" name="cheese" value="2" />Reduced Fat
+          <input type="radio" name="cheese" value="3" />Feta
+        </fieldset>
+        <fieldset>
+          <legend><b>Pilihan Saus</b></legend>
+          <input type="radio" name="sauce" value="1" />Black Paper Sauce
+          <input type="radio" name="sauce" value="2" />BBQ Sauce
+          <input type="radio" name="sauce" value="3" />Garlic Sauce
+          <input type="radio" name="sauce" value="4" />No Sauce
+        </fieldset>
+      </div>
+      <div class="forms2">
+        <fieldset>
+          <legend><b>Pilihan Toping - Rp.10.000,00/per topping</b></legend>
+          <div class="forms2">
+            <input type="checkbox" name="topping" value="1" /> Ikan Teri<br />
+            <input type="checkbox" name="topping" value="2" /> Daging Ayam<br />
+            <input type="checkbox" name="topping" value="3" /> Daging Sapi<br />
+            <input type="checkbox" name="topping" value="4" /> Peperoni<br />
+            <input type="checkbox" name="topping" value="5" /> Daun Salam<br />
+            <input type="checkbox" name="topping" value="6" /> Sosis<br />
+          </div>
+          <div class="forms2">
+            <input type="checkbox" name="topping" value="7" /> Brokoli<br />
+            <input type="checkbox" name="topping" value="8" /> Minyak Zaitun<br />
+            <input type="checkbox" name="topping" value="9" /> Paprika<br />
+            <input type="checkbox" name="topping" value="10" /> Jamur<br />
+            <input type="checkbox" name="topping" value="11" /> Bawang Merah<br />
+            <input type="checkbox" name="topping" value="12" /> Bawang Putih<br />
+          </div>
+        </fieldset>
+      </div>
+      <fieldset>
+        <legend><b>Instruksi khusus</b></legend>
+        <textarea name="instructions" rows="3" cols="42"></textarea>
+      </fieldset>
+      <br>
+      <input type="submit" value="PESAN"/>
+      <input type="reset" value="CLEAR"/>
+    </div>
+  </form>
+</body>
+
+</html>
