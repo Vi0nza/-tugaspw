@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chekout</title>
+        <link href= https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
+        rel="stylesheet">
+    </head>
+    <body  style="background-color: #f7fffc; max-width: 1350px !important; font-family: Poppins, Helvetica, sans-serif;">    <header>
+            <div class="div" style="background-color: #f2f2f2; padding: 15px; display:grid; grid-template-columns: 10% 65% 20%;">
+                <p style="font-weight: bold;">Shoppy</p>
+                <p style="text-align: left;">
+            <a href="" style="color: blue;">Home</a>&nbsp; I &nbsp;
+            <a href="" style="color: blue;">Generate Link</a>&nbsp; I &nbsp;
+            <a href="" style="color: blue;">Transaction History</a>&nbsp; I &nbsp;
+            <a href="" style="color: blue;">Policy</a>&nbsp; I &nbsp;
+            <a href="" style="color: blue;">Logout</a>&nbsp; &nbsp;
+                </p>
+                <p style="text-align: end;">
+            <i class="fa fa-search fa-fw large"></i>
+            <i class="fa fa-shopping-cart fa-fw large"></i>
+            <span>Cart (1)</span>
+                </p>
+    
+            </div>
+        </header><hr>
+
+        <div style="display: flex; align-items: center; text-align: left;">  <div style="margin: 40px;">
+        <div style="display: flex;"><img src="ceklis.jpg" width="80px" height="80px"><div>
+        <p><b> Order 1209837</b><h2>Thank You, Rafi</h2></p></div></div>
+        <br>
+
+        <hr>
+            <b> kamu sudah terkonfirmasi, Pesanan diterima dan sedang dikemas.</b>
+        <hr>
+        <h3>Informasi kostumer</h3>
+        <div class="info" style="display: flex; align-items: center; width: 400px; ">
+            <div class="kiri">
+            <h4>Alamat penerima</h4>
+            <p style="color: blue;">Muhammad Rafi Rabbani<br>Jl.Kayu putih utara<br>kel. Pulogadung, kec. Pulogadung,<br>DKI Jakarta, Jakarta timur</p>
+            <h4>Metode pengiriman</h4><p>JNE Yes (sampai dalam 1 hari)</p>
+        </div>
+
+        <div class="kanan" style="margin-left: 73px; margin-bottom: 5px;">
+            <h4>alamat penagihan</h4>
+            <p style="color: blue;">Muhammad Irfan Hakim<br>Jl.Pramuka 2, RT 04/02,<br>Kel.Mampang, kec.Pancoran Mas<br> Depok, Jawa Barat</p>
+            <h4>Metode pembayaran</h4><p style="display: flex;"><img src="visa.png" width="30px" height="30px"> - Rp. 100.000</p>
+        </div>
+        </div>
+        </div>
+
+        <aside style="margin-left: 80px; margin: 20px; margin-bottom: 130px; background-color: lightgray; width: 370px; height: 280px;" >
+            <div style="margin-left: 20px;">
+            <h3>Ringkasan</h3>
+            <p>Subtotal <b style="margin-left: 200px;">Rp. 100.000</b></p>
+            <p>Pengiriman <b style="margin-left: 180px;">Rp. 10.000</b></p>
+            <hr style="color: white;">
+            <h4>Total <b style="margin-left: 217px;">Rp. 110.000</b></h4>
+            <h4>Kode Voucher <b style="margin-left: 150px;"></b></h4>
+            <input type="text" name="Voucher" id="" value="Masukan jika ada" >
+            <input type="submit" value="kirim">
+            </div>
+        </aside>
+            </div>
+        <hr style="margin-left: 30px; width: 817px;">
+            
+
+        <footer style="margin-top: 50px;">
+        <div class="div" style="padding: 15px; display:grid; grid-template-columns: 25% 50% 25%;">
+            <p style="font-weight: bold;">Site Name</p>
+            <p style="text-align: center;">
+                <a href="">Category 1</a>&nbsp; I
+                <a href="">Category 2</a>&nbsp; I
+                <a href="">Category 3</a>&nbsp; 
+            </p>
+            <p style="text-align: end;">
+                <i class="fa fa-search fa-fw large"></i>
+                <i class="fa fa-shopping-cart fa-fw large"></i>
+                <span>Cart (1)</span>
+            </p>
+        </div>
+    </footer>
+
+        </aside>
+
+    </body>
+</html>
